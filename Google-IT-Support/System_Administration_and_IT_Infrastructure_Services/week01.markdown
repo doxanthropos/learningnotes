@@ -47,4 +47,12 @@ You can never know enough!
 
 ## Applying Changes
 
+### With Great Power Comes Great Responsibility
+
+Respect the rights of others.
+Don't misuse the admin rights.
+
+Writing out the steps you are going to do, will help not to rush and also document.
+
+Documentation and version management will help prepare for necessary rollbacks.
 
