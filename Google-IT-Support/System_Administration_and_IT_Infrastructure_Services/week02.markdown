@@ -69,4 +69,24 @@ See:
 
 ## Physical Infrastructure Services
 
+### Server Operating Systems
+
+<blockquote>
+Server Operating Systems
+Regular operating systems that are optimized for server functionality
+</blockquote>
+
+See:
+
+[Server Operating Systems](https://www.pcworld.idg.com.au/article/151491/server_operating_systems/)
+
+### Virtualization
+
+Why virtualization?
+
+- Performance: Dedicated hardware will have better performance
+- Cost: One server for many applications is cheaper than many smaller ones for each
+- Maintenance: With virtual servers, migrating stopping and restarting servers is easier
+- Points-of-Failure: with virtual servers the services are not bound to the machine they are running on and can be easily moved to another -> Backups
+
 
