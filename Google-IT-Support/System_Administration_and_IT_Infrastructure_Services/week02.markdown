@@ -89,4 +89,15 @@ Why virtualization?
 - Maintenance: With virtual servers, migrating stopping and restarting servers is easier
 - Points-of-Failure: with virtual servers the services are not bound to the machine they are running on and can be easily moved to another -> Backups
 
+### Remote Access Revisited
+
+OpenSSH - The most common remote access tool in Linux
+
+Read:
+
+- [OpenSSH](https://en.wikipedia.org/wiki/OpenSSH)
+- [Windows: Remote Desktop Clients](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
+- [About Windows Remote Management](https://docs.microsoft.com/en-us/windows/win32/winrm/about-windows-remote-management?redirectedfrom=MSDN)
+- [PuTTY](https://en.wikipedia.org/wiki/PuTTY)
+
 
