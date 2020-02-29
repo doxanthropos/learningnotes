@@ -100,4 +100,17 @@ Read:
 - [About Windows Remote Management](https://docs.microsoft.com/en-us/windows/win32/winrm/about-windows-remote-management?redirectedfrom=MSDN)
 - [PuTTY](https://en.wikipedia.org/wiki/PuTTY)
 
+## Network Services
+
+### FTP, SFTP and TFTP
+
+- FTP - File Transfer Protocol: a legacy way to transfer files, because unlike modern tools it offers no encryption.
+- SFTP - Secure FTP: is FTP using SSH for encryption.
+- TFTP - Trivial FTP does not even have authentication.
+- PXE Boot - Preboot Execution Boot allows to boot into software that is available over the network. Here TFTP is often used.
+
+Read:
+
+- [Preboot Excetution Ennvironment](https://en.wikipedia.org/wiki/Preboot_Execution_Environment)
+- [Comparison of FTP Client Software](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software)
 
