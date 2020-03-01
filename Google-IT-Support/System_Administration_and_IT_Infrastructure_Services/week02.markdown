@@ -114,3 +114,65 @@ Read:
 - [Preboot Excetution Ennvironment](https://en.wikipedia.org/wiki/Preboot_Execution_Environment)
 - [Comparison of FTP Client Software](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software)
 
+### NTP
+
+NTP -> Network Time Protocol
+
+It is possible to use public NTP servers or to run your own.
+Good practice is to have your own that your fleet connects to and synchronize that one with a puble NTP server.
+
+### Network Support Services Revisited
+
+<blockquote>
+Intranet
+An internal network inside the company; accessable if you're on a company's network
+</blockquote>
+
+<blockquote>
+Proxiserver
+Acts as an intermediary between a company's network and the Internet
+</blockquote>
+
+### DNS
+
+<blockquote>
+Domain Name System (DNS)
+Maps human-understandable names to IP addresses
+</blockquote>
+
+### DNS for Web Servers
+
+The DNS entry for a domain name can be managed by the Domain Name Registrar or by yourself.
+
+In the first case they need the DNS settings and the IP address of the server.
+In the second case, you need to setup an Authoritative DNS Server
+
+### DNS for Internal Networks
+
+A local hosts file can contain static mappings between IP addresses and Domain names.
+In Linux this can be found at `/etc/hosts`.
+
+A DNS server can provide mappings for all machines that are configured to use that DNS server.
+It is possible to populate a DNS server with a directory service like Active Directory or LDAP.
+Read:
+
+- [The Top DNS Servers And What They Offer](https://blog.dnsimple.com/2015/02/top-dns-servers/)
+- [BIND 9](https://www.isc.org/bind/)
+- [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html)
+- [erldns](https://github.com/dnsimple/erldns)
+
+### DHCP
+
+DHCP -> Dynamic Host Configuration Protocol
+
+Read:
+
+[Comparison of DHCP server software](https://en.wikipedia.org/wiki/Comparison_of_DHCP_server_software)
+
+## Troubleshooting Network Services
+
+### Unable to Resolve a Hostname or Domain Name
+
+Use `ping` and `nslookup`.
+
+
