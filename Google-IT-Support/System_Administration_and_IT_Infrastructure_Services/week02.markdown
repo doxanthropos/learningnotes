@@ -175,4 +175,97 @@ Read:
 
 Use `ping` and `nslookup`.
 
+## Managing System Services
+
+### What do Services Look Like in Action
+
+Background Processes - Daemons - Services
+
+<blockquote>
+This means that the program doesn't need to interact with a user through a graphical interface or the command line interface to provide the necessary service.
+</blockquote>
+
+Interaction with services is usually done by configuration files.
+
+<blockquote>
+Services are usually configured to start, when the machine boots, so that if there's a power outage or a similar event that causes the machine to reboot, you won't need a system administrator to manually start the service.
+</blockquote>
+
+### Managing Services in Linux
+
+    service ntp status
+
+Will show the status of the network time protocol service in Ubuntu.
+
+    sudo service ntp stop
+
+Will stop the ntp service.
+
+    sudo service ntp start
+
+Will restart the ntp service again. Now it will also correct bigger discrepancies.
+
+    sudo service ntp restart
+
+Does the same as the previous two commands in one command.
+
+[Network Time Protocol Daemon - Archwiki](https://wiki.archlinux.org/index.php/Network_Time_Protocol_daemon)
+
+### Managing Services in Windows
+
+Example: Windows Update Service
+
+    Get-Service wuauserv
+
+Displays the status of the Windows Update Service.
+
+    Get-Service wuauserv | Format-List *
+
+Will show additional information.
+Every user can show the status of the service, only administrators can modify a service.
+
+    Stop-Service wuauserv
+    Start-Service wuauserv
+
+Stops the service, starts it again.
+
+    Get-Service
+
+Will show all running services.
+
+All of this is also possible in the GUI of the service management console.
+
+### Configuring Services in Linux
+
+<blockquote>
+The configuration files for the installed services are located in the /etc directory.
+</blockquote>
+
+Example: vsftp
+
+    sudo apt install vsftpd
+
+<blockquote>
+lftp
+An ftp client program that allows us to connect to an ftp server.
+</blockquote>
+
+    lftp localhost
+
+`/etc/vsftpd.conf`
+
+
+    sudo vsftpd reload
+
+Will reload the configuration file after it is changed.
+
+### Configuring Services in Windows
+
+`C:\inetpub` is the default directory for content served by the Windows webserver.
+
+
+## Configuring Network Services
+
+### Configuring DNS with Dnsmasq
+
 
