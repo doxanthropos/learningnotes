@@ -268,4 +268,36 @@ Will reload the configuration file after it is changed.
 
 ### Configuring DNS with Dnsmasq
 
+First install dnsmasq:
+
+    sudo apt install dnsmasq
+
+or
+
+    sudo pacman -S dnsmasq
+    # start the service
+    systemctl start dnsmasq
+    # see the logs to check if the serivce is running
+    journalctl -u dnsmasq.service
+
+The basic configuration will provide a dns caching service.
+Test it with:
+
+    dig www.example.com @localhost
+
+To run dnsmasq in debuggin mode:
+
+    # first stop the service
+    sudo service dnsmasq stop # on older systems
+    # or
+    sudo systemctl stop dnsmasq
+    # run debug mode
+    sudo dnsmasq -d -q
+
+Now dig in another terminal window:
+
+    dig www.example.com @localhost
+
+And see the debug output of dnsmasq.
+
 
