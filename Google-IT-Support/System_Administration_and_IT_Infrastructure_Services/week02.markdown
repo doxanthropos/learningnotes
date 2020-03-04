@@ -300,4 +300,17 @@ Now dig in another terminal window:
 
 And see the debug output of dnsmasq.
 
+Sample host configuration:
+
+    192.168.1.2 helium.local
+    192.168.1.3 nitrogen.local
+    192.168.1.4 oxygen.local
+
+Saved as myhosts.txt
+Used with:
+
+   sudo dnsmasq -d -q -H myhosts.txt
+
+### Configuring DHCP with dnsmasq
+
 
