@@ -121,4 +121,32 @@ Read:
 - [Windows: Print and Document Services Overview](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831468(v=ws.11))
 - [CUPS - Print Server](https://help.ubuntu.com/lts/serverguide/cups.html)
 
+## Platform Services
+
+### Web Servers Revisited
+
+Install Apache in Ubuntu:
+
+    sudo apt-get install apache2 -y
+
+Read:
+
+[Apache HTTP Server vs Microsoft IIS vs nginx](https://stackshare.io/stackups/apache-httpd-vs-microsoft-iis-vs-nginx)
+
+### What is a Database Server?
+
+<blockquote>
+Database
+Allows us to store, query, filte, and manage large amounts of data
+</blockquote>
+
+Job: Database Administrator
+
+Read:
+
+- [Database Administrators](https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm)
+- [SQLite vs MySQL vs PostgreSQL: A Comparison Of Relational Database Management Systems](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
+
+[Apache Documentation](https://httpd.apache.org/docs/current/)
+
 
