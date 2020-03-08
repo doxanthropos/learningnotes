@@ -149,4 +149,40 @@ Read:
 
 [Apache Documentation](https://httpd.apache.org/docs/current/)
 
+## Troubleshooting Platform Services
+
+### Is the Website Down?
+
+#### HTTP Status Codes
+
+<blockquote>
+HTTP status codes are codes or numbers that indicate some sort of error or info messages that occurred when trying to access a web resource.
+</blockquote>
+
+These status codes can be found in the developer tools of the webbrowser.
+
+4xx indicate issues on the client side.
+5xx indicate issues on the server side.
+2xx indicate success.
+
+Read:
+
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2)
+- [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
+- [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
+## Managing Cloud Services
+
+### Cloud Concepts
+
+<blockquote>
+Software as a Service (SaaS)
+The software is already preconfigured and the user isn't deeply involved in the cloud configuration.
+</blockquote>
+
+<blockquote>
+Infratructure as a Service (IaaS)
+You're hosting your own services in the cloud. You need to decide how you want the infrastructure to look depending on what you want to run on it
+</blockquote>
+
 
