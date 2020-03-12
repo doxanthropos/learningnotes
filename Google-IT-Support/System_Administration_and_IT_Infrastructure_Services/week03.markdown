@@ -185,4 +185,29 @@ Infratructure as a Service (IaaS)
 You're hosting your own services in the cloud. You need to decide how you want the infrastructure to look depending on what you want to run on it
 </blockquote>
 
+<blockquote>
+Region
+A geographic location containing a number of data centers
+</blockquote>
+
+<blockquote>
+If one of them fails for some reason, the other are still available and services can be migrated without visibly affecting users
+</blockquote>
+
+<blocquote>
+Public Cloud
+Cloud services provided to you by a third party
+</blockquote>
+
+<blockquote>
+Private Cloud
+When your company owns the services and the rest of your infrastucture - wether on-site or in a remote data center
+</blockquote>
+
+<blockquote>
+Hybrid Cloud
+A mixture of both public and private clouds
+</blockquote>
+
+
 
