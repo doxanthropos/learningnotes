@@ -209,5 +209,28 @@ Hybrid Cloud
 A mixture of both public and private clouds
 </blockquote>
 
+### Typical Cloud Infrastructure Setups
+
+<blockquote>
+Load Balancer
+Enusres that each VM receives a balanced number of queries
+</blockquote>
+
+<blockquote>
+Autoscaling
+It allows the service to increase or reduce capacity as needed, while the service owner only pays for the cost of the machines that are in use a any given time
+</blockquote>
+
+### When and How to Choose Cloud
+
+#### Pros
+
+- Only temporary use
+- Variing need
+- Geographical location
+
+#### Cons
+
+- Cloud lock in
 
 
