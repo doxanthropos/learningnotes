@@ -233,4 +233,9 @@ It allows the service to increase or reduce capacity as needed, while the servic
 
 - Cloud lock in
 
+### Read:
+
+- [Microsoft Azure: What is cloud computing?](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)
+- [AWS: Getting Started Resource Center](https://aws.amazon.com/getting-started/)
+- [Google Cloud Platform Overview](https://cloud.google.com/docs/overview/)
 
