@@ -73,4 +73,27 @@ Read:
 - [puppet](https://puppet.com/)
 - [MS: What is Configuration Manager?](https://docs.microsoft.com/en-us/configmgr/core/understand/introduction)
 
+## LDAP
+
+### What is LDAP?
+
+<blockquote>
+Lightweight Directory Access Protocol (LDAP)
+Used to access information in directory services over a network
+</blockquote>
+
+- Active Directory
+- OpenLDAP
+
+Example of an LDAP entry:
+
+`dn: CN=Devan Sri-Tharan,OU=Sysadmin,DC=example,DC=com`
+
+- dn: Distinguished name
+- CN: Common name of the object
+- OU: Organizational unit such as a group
+- DC: Domain component, the domain example.com is split into the components example and com
+
+[LDAP Data Interchange Format](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
+
 
