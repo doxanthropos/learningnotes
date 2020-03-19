@@ -96,4 +96,21 @@ Example of an LDAP entry:
 
 [LDAP Data Interchange Format](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
 
+### What is LDAP Authentication?
 
+!["A visualization of the LDAP Authentication process"](LDAP-Authentication.png)
+
+#### Three ways to authenticate
+
+- Anonymous: No authentication at all
+- Simple: Username and password in plaintext
+- SASL (Simple Authentication and Security Layer): TLS encrypted, using another authentication method, like Kerberos
+
+<blockquote>
+Kerberos
+A network authentication protocol that's used to authenticate user identity, secure the transfer of user credentials, and more
+</blockquote>
+
+
+
+[What Is Kerberos Authentication?](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc780469(v=ws.10)?redirectedfrom=MSDN)
