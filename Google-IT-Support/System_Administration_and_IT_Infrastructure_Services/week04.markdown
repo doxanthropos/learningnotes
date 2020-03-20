@@ -114,3 +114,17 @@ A network authentication protocol that's used to authenticate user identity, sec
 
 
 [What Is Kerberos Authentication?](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc780469(v=ws.10)?redirectedfrom=MSDN)
+
+## Active Directory
+
+### What is Active Directory?
+
+Active Directory Administrative Center (ADAC)
+
+Domain is usually the top node in an AD structure, but Domains are themselves part of a forest. A group of Domains, that can share resources in the same forest.
+
+Domain Controllers (DCs) host a (read-write) replica of the AD database, and GPOs. They serve as DNS service and provide Service Discovery. They provide authentication via Kerberos.
+
+Changes to AD from a DC are usually done in the order they come in. This opens up the possibility of conflicts. For operations where this should not happen at all a single DC will be tasked with these kind of changes, known as Flexible Single-Master Operations (FISMO).
+
+[Managing Flexible Single-Master Operations](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc961936(v=technet.10)?redirectedfrom=MSDN)
