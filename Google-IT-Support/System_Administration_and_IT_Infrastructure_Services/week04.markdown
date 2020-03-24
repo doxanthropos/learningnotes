@@ -128,3 +128,43 @@ Domain Controllers (DCs) host a (read-write) replica of the AD database, and GPO
 Changes to AD from a DC are usually done in the order they come in. This opens up the possibility of conflicts. For operations where this should not happen at all a single DC will be tasked with these kind of changes, known as Flexible Single-Master Operations (FISMO).
 
 [Managing Flexible Single-Master Operations](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc961936(v=technet.10)?redirectedfrom=MSDN)
+
+### Managing Active Directory
+
+Domain Admins are the administrators of the complete Domain.
+
+Enterprise Admins are Domain Administrators with the additional right to control the whole forest.
+
+Domain Admin accounts should not be used for all daily tasks, but only for administering AD.
+
+### Managing Active Directory Users and Groups
+
+Managing User Account Lifecycle
+
+Security Account Manager- SAM
+ 
+User SamAccountName
+
+ADAC has as PowerShell history pane that shows everything that is done in ADAC as its PowerShell commmand.
+
+#### Group Types
+
+Security Groups are used to grant or restrict access.
+
+Distribution Groups are used for Email Communication and are not used for access granting.
+
+#### Group Scope
+
+- Domain Local: Used to assign permission to a resource.
+- Global: Used to group accounts into a role.
+- Universal: Used to group global groups in a forest.
+
+Example:
+
+A researchers group (Global Group) that will use a research share readers group (Domain Local) and a research share writers groups (also Domain Local) to give access to the share destined to use for researchers.
+
+Read:
+
+- [Group scope](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc755692(v=ws.10)?redirectedfrom=MSDN)
+- [What Are Security Principals?](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc780957(v=ws.10)?redirectedfrom=MSDN)
+
