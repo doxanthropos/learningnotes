@@ -11,6 +11,8 @@ Switching between different tasks in what is experienced as multitasking produce
 - [Jon Kabat-Zinn Defines Mindfulness](https://www.youtube.com/watch?v=wPNEmxWSNxg)
 - [Becoming Conscious: The Science of Mindfulness](https://www.youtube.com/watch?v=5TeWvf-nfpA)
 - [Dr. Ron Siegel: "The Science of Mindfulness" | Talks at Google](https://www.youtube.com/watch?v=aPlG_w40qOE)
+- [Can Mindfulness Increase Our Resilience to Stress?](https://www.youtube.com/watch?v=ALjF1yb-VLw)
+- [Keeping Calm and Carrying on During COVID-19 | Mindful Moment with Craig Hassed | Monash Mindfulness](https://www.youtube.com/watch?v=Em5XSPJLvJ0)
 
 ## Not Only The Meditations
 
@@ -19,4 +21,8 @@ Because our habits and what we do during the day influences our mind much more t
 - Turning off alerts.
 - Pomodoro technique.
 
+## Articles
 
+- [Effects of Mindfulness on Psychological Health: A Review of Empirical Studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3679190/)
+
+![Curve from No Stress to Peak Performance to Burnout](./stress-curve.png)
