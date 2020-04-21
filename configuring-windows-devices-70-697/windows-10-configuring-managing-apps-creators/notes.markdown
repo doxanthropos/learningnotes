@@ -28,3 +28,37 @@ The Trusted Installer is the programs this is meant to take care of these.
 - Program compatibility assistant: automated is part of the Control Panel.
 - Run as Administrator: will make an app ask for Administrator rights before it runs. Note: To me this seems to defeat the purpose of the initial rule that apps are not allowed to run as Administrator.
 - Compatibility modes.
+
+Windows 10 redirects regestry entries and file entries, where applications try to access places that they are not allowed to.
+
+Regedit:
+
+Computer\HKEY_CURRENT_USER\SOFTWARE\Classes\VirtualStore
+Redirecting from HKKEY_LOCAL_MACHINE
+
+Filesystem
+
+AppData\Local\VirtualStore
+
+"Run Programs made for previous versions of Windows" in the Control Panel
+
+Is just a front end to some PS Scripts that can be found here:
+
+C:\Windows\AppPatch\
+
+This is available from the Control Panel and from the properties of the individual app.
+
+"Change settings for all users." Will make the change be stored not in HK_CURRENT_USER, but in HK_LOCAL_MACHINE.
+
+## Application Compatiblity Toolkit
+
+Is part of the Windows Assessment and Deployment Toolkit (WADK).
+
+Parts:
+
+- Application Compatibility Manager
+- Standard User Analyzer Wizard
+- Compatibiliy Administrator
+- Standard User Analyzer
+
+
