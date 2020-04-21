@@ -61,4 +61,20 @@ Parts:
 - Compatibiliy Administrator
 - Standard User Analyzer
 
+Installing:
+
+- Download and install the current Windows ADK -> but this is missing the standard user analyzer and the standard user analyzer wizard
+- Download and install the Windows ADK for Windows 8.1
+- Download and install the Application Verifier -> The version needed it based on the programs you want to troubleshoot, 32bit for 32bit applications.
+
+### Compatibility Administrator
+
+- Create a new compatibility database (.sdb)
+- Select your application and apply compatibility fixes
+- Test your application with the compatibility fixes
+
+- Fixes can include:
+    - Custom help messages
+    - Assigned compatibility modes
+    - Compatibility fixes
 
