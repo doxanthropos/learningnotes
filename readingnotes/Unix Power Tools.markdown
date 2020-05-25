@@ -33,4 +33,14 @@ There are three different kinds of programs that a users can interact with, none
 
 Note from me: In operating systems that rely on the GUI, there is a trend to distinguish between GUI programs and the GUI shell. For example the [GNOME Shell](https://wiki.gnome.org/Projects/GnomeShell), which serves the same purpose as the classical shell, but for GUI programs.
 
+## Programs are designed to work together
+
+Programs in Unix are designed for one specific function.
+
+Programs that are not interactive should take their input from the standard input and give their output to the stadard output in the form of plain text. All additional information should come from either the input or the command parameters that are given when calling the program.
+
+Both standard input and output are the shell, but they can and are usually redirected. Redirection happens either to or from a file or to or from another program.
+
+Redirection into another program can be done by the pipe |.
+
 
