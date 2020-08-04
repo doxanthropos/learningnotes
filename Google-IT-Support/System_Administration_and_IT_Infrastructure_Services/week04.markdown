@@ -168,3 +168,48 @@ Read:
 - [Group scope](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc755692(v=ws.10)?redirectedfrom=MSDN)
 - [What Are Security Principals?](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc780957(v=ws.10)?redirectedfrom=MSDN)
 
+### Managing Active Directory User Passwords
+
+AD does not store the passwords, but only one way cryptographic passwords.
+
+<blockquote>
+If there's more than one person who can authenticate using the same username and password, then auditing becomes diffcult or even impossible.
+</blockquote>
+
+### EFS
+
+If users use EFS to encrypt their storage devices, a password reset might lock them out of these encrypted devices.
+
+<a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc962100(v=technet.10)?redirectedfrom=MSDN">Features of EFS</a>
+
+### Joining an Active Directory Domain
+
+Joining AD:
+
+- AD has knowledge of the computer and has provisioned a computer account for it.
+- The computer knows about the Active Directory Domain and authenticates with it.
+
+Workgroups are a collection of standalone computers that work together. A computer that is not joined to a domain is a workgroup computer.
+
+Adding a computer to a domain with PowerShell:
+
+    Add-Computer -DomainName 'example.com' -Server 'dc1'
+
+
+The "-restart" parameter will trigger a restart after joining the domain.
+
+To see the functional levels of the forest and the domain:
+
+    Get-ADForest
+
+and
+
+    Get-ADDomain
+
+This will show which AD features are supported.
+
+Read more about that here:
+
+<a href="https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-functional-levels">Forest and Domain Functional Levels</a>
+
+
