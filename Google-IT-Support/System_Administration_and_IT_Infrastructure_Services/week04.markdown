@@ -212,4 +212,54 @@ Read more about that here:
 
 <a href="https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-functional-levels">Forest and Domain Functional Levels</a>
 
+### What is Group Policy
+
+<blockquote>
+Group Policy Object
+A set of policies and preferences that can be applied to a group of objects in the directory
+</blockquote>
+
+Group policies have to be **linked** to start working.
+
+<blockquote>
+When you **link** a GPO, all of the computers or users under that domain, site, or OU will have that policy applied.
+</blockquote>
+
+The application scope can be modified by *Security filtering* and *WMI Filtering*.
+
+<blockquote>
+A Group Policy Object can contain **computer configuration, user configuration,** or both.
+</blockquote>
+
+**Computer Configuration** is applied every time a computer signs into AD (that is every time it boots into Windows, as long as it is connected to the network).
+
+**User Configuration** is applied when a user logs on into the computer.
+
+Once the GPO is in place, it is checked and enforced every few minutes.
+
+![Diagram of GPO flow](./week04-gpo.png)
+
+#### Difference between Policies and Preferences
+
+<blockquote>
+Policies
+Settings that are reapplied every few minutes, and aren't meant to be changed even by the local administrators
+</blockquote>
+
+By default Policies are reapplied every 90 minutes.
+
+<blockquote>
+Group policy preferences
+Settings that, in many cases, are meant to be a template for settings
+</blockquote>
+
+GPO settings are mostly stored in the Windows Registry
+
+<blockquote>
+Windows Registry
+A hierarchical database of settings that Windows, and many Windows applications, use for storing configuration data
+</blockquote>
+
+
+
 
