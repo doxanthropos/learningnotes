@@ -74,4 +74,26 @@ Existing business processes all should be modeled and documented.
 - Technology
 - Expectations
 
+## Using Flow Charts for Your Customer Support Needs
+
+- Ask all necessary questions
+- Implement solutions that have worked before
+
+### Benefits
+
+- Efficiancy and Consistancy in the decision making process
+
+> 
+> When you are immersed in a quality experience,
+> you feel good, when the experience is over.
+> 
+
+### Flow Chart Processes
+
+- Record the Users Information: Who is the user? What is their contact information?
+- How to classify the request? Is is a knowledge question? Is it an issue? Is it a service request?
+- Resolve the request? Using the knowledge base, escalating.
+- Confirm and close the request: make sure that the issue is resolved, before closing the request. Don't close tickets, without having some form of contact with the user.
+- Ensure quality service
+
 
