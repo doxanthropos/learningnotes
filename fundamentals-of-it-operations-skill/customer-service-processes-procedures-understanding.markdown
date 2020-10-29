@@ -96,4 +96,68 @@ Existing business processes all should be modeled and documented.
 - Confirm and close the request: make sure that the issue is resolved, before closing the request. Don't close tickets, without having some form of contact with the user.
 - Ensure quality service
 
+## Implementing a Troubleshooting FAQ Knowledge Base
+
+### What is a Knowledge Base / FAQ
+
+Knowledge bases can be internal or external.
+
+Knowlege base
+: A technology used to store complex structured and unstructured information used by a computer system.
+
+#### Values
+
+- Team cross training
+- First call problem resolution
+- Improves time to resolution
+- Overall improved support model
+
+#### FAQ
+
+- Often shared with the entire organization or even outside
+- Solving repeatable issues
+- Repeatable procedures
+
+#### Choosing a CMS
+
+- Email is not a CMS!
+- Version control is necessary!
+- Backup and recovery is also necessary: there needs to be a process for when the CMS fails.
+- Ease of use! If it is not easy, it will not be used.
+
+### Cross Training Value
+
+- Preserving article versions: seeing change history without the people who did the change
+- Offer to organizational users
+- "Document it! Don't wait for perfection"
+- Cross-link articles
+- Only knowledge base! It is near impossible to work with more than one knowledge base in one organization!
+
+#### Why setup a KB
+
+- Self-service/FAQ options: To make sure people know about this it has to also be used when answering tickets.
+- Train and educate staff
+- Known issues and fixes
+- Provide tools to users
+
+### Supportive Team Environment
+
+- Documentation
+- Cross-training
+
+>
+> "Train people well enough so they
+> can leave, treat them well enough
+> so they don't want to."
+> -- Richard Branson
+>
+
+#### Career Growth Opportunities
+
+- Skills will improve and sharpen with documenting
+- Experience
+- Communication skills
+- Develop training: Shows understanding of an issue
+- Problem solving
+- Learning the business!
 
