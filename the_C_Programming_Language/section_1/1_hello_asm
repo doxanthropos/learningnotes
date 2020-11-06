@@ -1,0 +1,5 @@
+execve("/home/kjackowski/tmp/hello", ["/home/kjackowski/tmp/hello"], 0x7ffcb76ef4c0 /* 47 vars */) = 0
+[ Process PID=17822 runs in 32 bit mode. ]
+write(1, "Hello World!\n", 13)          = 13
+exit(0)                                 = ?
++++ exited with 0 +++
