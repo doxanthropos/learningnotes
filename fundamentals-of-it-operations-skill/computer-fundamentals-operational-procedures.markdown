@@ -11,6 +11,11 @@ url: https://app.pluralsight.com/library/courses/computer-fundamentals-operation
 
 The more we know, the better equipped we are to better troubleshoot issues that might pop up.
 
+Solarwinds -> Network Topology Mapper
+
+Microsoft System Center Configuration Manager -> Hardware Inventory
+
+
 ### Professionlalism
 
 - Attitude, jargon, cultural sensitivity
