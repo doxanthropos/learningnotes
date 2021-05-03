@@ -260,6 +260,17 @@ Windows Registry
 A hierarchical database of settings that Windows, and many Windows applications, use for storing configuration data
 </blockquote>
 
+### Group Policy Creation and Editing
 
+GPMC = Group Policy Management Console
+
+In the Tools of Server Manager or gpmc.msc in CMD.
+
+WMI = Windows Management Instrumentation
+WMI Filters allow to target specific computers.
+Group Policy Results: check which policies are already applied.
+Group Policy Modeling: Show the policies that will be applied to a computer.
+
+Domains, Sites and OU can be linked to by Group Policy Objects.
 
 
