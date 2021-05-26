@@ -273,4 +273,88 @@ Group Policy Modeling: Show the policies that will be applied to a computer.
 
 Domains, Sites and OU can be linked to by Group Policy Objects.
 
+### Group Policy Inheritance and Precedence
+
+Example:
+
+Excel Macros are disabled for all users, but some departments like finance need them so they get a different GP.
+
+<blockquote>
+When a computer is processing the Group Policy Objects that apply to it, all of these policies will be applied in **precedence** rules.
+</blockquote>
+
+The more general rules are applied first and the last apllied rule in case of contradicting rules is the one that will be effective in the end.
+
+RSOP - Resultant set of policy
+
+RSOP Reports are used to check the policies of an object.
+
+The RSOP report will be generated remotely from the computer it is about, so that needs to be switched on and connected to the network.
+
+### Group Policy Troubleshooting
+
+SRV records:
+´´´
+Resolve-DNSName -Type SRV -Name _ldap._tcp.dc._msdcs.DOMAIN.NAME
+´´´
+
+Time differences might prevent a computer from authenticating with AD, because Kerberos, the authentication protocol used for AD checks for that.
+It is possible to resync the time with this command:
+
+´´´
+w32tm/resync
+´´´
+
+<blockquote>
+A common issue that you might have to troubleshoot is when a GPO-defined policy or preference fails to apply to a computer.
+</blockquote>
+
+Fast Logon Optimization might prevent some policies to be applied to make logon faster.
+Policies are also not usually applied full, but only the changes.
+
+´´´
+gpupdate /force /snyc
+´´´
+
+Will force an update of all policies, but it might take a while.
+"/sync" will also force a restart.
+
+Replication failure is also a common failure.
+
+´´´
+$env:LOGONSERVER
+´´´
+in PS, will show the server that the computer is authenticated to.
+
+or
+
+´´´
+%LOGONSERVER%
+´´´
+
+in CMD.
+
+´´´
+gpresult /R
+´´´
+
+will generate a report and 
+
+´´´
+gpresult /H result.html
+´´´
+
+will generate a more complete result as an html page.
+
+Look for ACLs and wmi filters.
+
+### Reading for GPO Troubleshooting
+
+- [How the Windows Time Service Works](https://docs.microsoft.com/en-us/windows-server/networking/windows-time-service/How-the-Windows-Time-Service-Works)
+- [W32tm](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb491016(v=technet.10\))
+- [Troubleshooting Active Directory—Related DNS Problems](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/bb727055(v=technet.10\)?redirectedfrom=MSDN)
+- [Control the Scope of Group Policy Objects](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772166(v=ws.11\))
+- [Check Group Policy Infrastructure Status](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj134176(v=ws.11\)?redirectedfrom=MSDN)
+- [Gpresult](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc733160(v=ws.11\)?redirectedfrom=MSDN)
+- [Create a WMI Filter](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770562(v=ws.11\)?redirectedfrom=MSDN)
 
