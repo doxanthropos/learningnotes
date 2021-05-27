@@ -357,4 +357,11 @@ Look for ACLs and wmi filters.
 - [Check Group Policy Infrastructure Status](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj134176(v=ws.11\)?redirectedfrom=MSDN)
 - [Gpresult](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc733160(v=ws.11\)?redirectedfrom=MSDN)
 - [Create a WMI Filter](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770562(v=ws.11\)?redirectedfrom=MSDN)
+### Mobile Device Management (MDM)
+
+- [Complete MDM payload list for Apple devices](https://support.apple.com/guide/mdm/complete-payload-list-mdm5370d089/web)
+- [Apply settings for Android mobile devices](https://support.google.com/a/answer/6328708#apply)
+- [Intro to Profile Manager](https://support.apple.com/guide/server/intro-to-profile-manager-apd0e2214c6/mac)
+- [Set up advanced mobile management](https://support.google.com/a/answer/7396025)
+
 
