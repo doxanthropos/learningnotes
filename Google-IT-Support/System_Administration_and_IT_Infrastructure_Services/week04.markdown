@@ -399,4 +399,8 @@ ldapsearch
 Will search for entries in your directory database
 </blockquote>
 
+#### Reading
+
+- [LDAP Data Interchange Format](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
+- [How To Use LDIF Files to Make Changes to an OpenLDAP System](https://www.digitalocean.com/community/tutorials/how-to-use-ldif-files-to-make-changes-to-an-openldap-system)
 
