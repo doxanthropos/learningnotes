@@ -364,4 +364,39 @@ Look for ACLs and wmi filters.
 - [Intro to Profile Manager](https://support.apple.com/guide/server/intro-to-profile-manager-apd0e2214c6/mac)
 - [Set up advanced mobile management](https://support.google.com/a/answer/7396025)
 
+### OpenLDAP
+
+PHP LDAP Admin is like the Windows AD GUI.
+Packages in Ubuntu are "slapd ldap-utils"
+dpkg-reconfigure slapd reconfigures slapd in Debian based systems.
+
+#### Reading
+
+- [How To Install and Configure OpenLDAP and phpLDAPadmin on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-ubuntu-16-04)
+- [5. Configuring slapd](https://www.openldap.org/doc/admin24/slapdconf2.html)
+
+#### Managing OpenLDAP
+
+LDIF is a text file that contains LDAP configuration.
+
+<blockquote>
+ldapadd
+Takes the input of an LDIF file and adds the context of the files.
+</blockquote>
+
+<blockquote>
+ldapmodify
+Modifies an existing object
+</blockquote>
+
+<blockquote>
+ldapdelete
+Will remove the object that the LDIF file refers to
+</blockquote>
+
+<blockquote>
+ldapsearch
+Will search for entries in your directory database
+</blockquote>
+
 
