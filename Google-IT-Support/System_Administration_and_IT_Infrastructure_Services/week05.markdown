@@ -26,3 +26,21 @@ A <strong>post-mortem</strong> is a way for you to document any problems you dis
 #### Reading
 
 - [GitLab.com database incident](https://about.gitlab.com/blog/2017/02/01/gitlab-dot-com-database-incident/)
+
+### Backing Up Your Data / Backup Solutions
+
+Tradeoffs between Cloud and on-site
+
+Standard for archive storage is magentic tapes.
+
+<blockquote>
+A file transfer utility that's designed to efficiently transfer and synchronize files between locations or computers
+</blockquote>
+
+#### Reading
+
+- MS: [Back up and restore your PC](https://support.microsoft.com/en-us/windows/back-up-and-restore-your-pc-ac359b36-7015-4694-de9a-c5eac1ce9d9c)
+- Apple: [Back up your Mac with Time Machine](https://support.apple.com/en-us/HT201250)
+- rsync: [As a backup utility](https://wiki.archlinux.org/title/rsync#As_a_backup_utility)
+
+
