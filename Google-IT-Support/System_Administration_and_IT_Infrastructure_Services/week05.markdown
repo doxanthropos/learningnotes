@@ -43,4 +43,36 @@ A file transfer utility that's designed to efficiently transfer and synchronize 
 - Apple: [Back up your Mac with Time Machine](https://support.apple.com/en-us/HT201250)
 - rsync: [As a backup utility](https://wiki.archlinux.org/title/rsync#As_a_backup_utility)
 
+### Testing Backups
+
+<blockquote>
+Restoration procedures
+Should be documented and accessible so that anyone with the right access can restore operations when needed
+</blockquote>
+
+Regularly test documentation!
+
+Simulate disaster events to test the disaster recovery!
+
+### Types of Backup
+
+Ways to Perform Regular Backups:
+
+- Full Backup
+- Differential Backup
+- Regular Incremental Backups
+
+<blockquote>
+It's a good practice to perform infrequent full backups, while also doing more frequent differential backups.
+</blockquote>
+
+<blockquote>
+Redundant Array of Independent Disks (RAID)
+A method of taking multiple physical disks and combining them into one large virtual disk
+</blockquote>
+
+#### Reading
+
+[Standard RAID levels](https://en.wikipedia.org/wiki/Standard_RAID_levels)
+
 
