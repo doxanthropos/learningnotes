@@ -75,4 +75,35 @@ A method of taking multiple physical disks and combining them into one large vir
 
 [Standard RAID levels](https://en.wikipedia.org/wiki/Standard_RAID_levels)
 
+### User Backups
+
+### What's a Disaster Recovery Plan?
+
+<blockquote>
+Disaster recovery plan
+A collection of documented procedures and plans on how to react and handle an emergency or disaster scenario, from the operational perspective
+</blockquote>
+
+<blockquote>
+Preventive measures
+Any procedures or systems in place that will proactively minimize the impact of a disaster
+</blockquote>
+
+<blockquote>
+Detection measures
+Meant to alert you and your team that a disaster has occurred that can impact operations
+</blockquote>
+
+Example aspects:
+
+- Environmental Sensors
+- Flood Sensors
+- Temp and Humidity Sensors
+- Evacuation Procedures
+
+<blockquote>
+Corrective or recovery measures
+Those enacted after a disaster has occurred
+</blockquote>
+
 
