@@ -106,4 +106,48 @@ Corrective or recovery measures
 Those enacted after a disaster has occurred
 </blockquote>
 
+### Designing a Disaster Recovery Plan
+
+<blockquote>
+Risk assessment
+Allows you to prioritize certain aspects of the organizations that are more at risk if there's an uforeseen event
+</blockquote>
+
+- Perform Risk Assessment
+- Determine Backup and Recovery Systems
+- Determine Detection & Alert Measures & Test Systems
+- Determine recovery measures
+
+Temperature, CPU load, network load and similar measures need to be monitored, to be alerted before a disaster happens.
+
+Testing should not only include the monitoring systems, but also the reactions to them. Alerts should be followed up with appropriate responses.
+
+Disaster recovery dokumentation should be accessible in an emergency scenario, when the typical documentation methods might be offline.
+
+### Post-Mortems
+
+#### Brief Summary
+
+- What the incident was
+- How long it lasted
+- What the impact was
+- How it was fixed
+
+Take care to take into account timezones, when mentioning dates and times.
+
+#### Detailed Timeline
+
+
+
+#### Root Causes
+
+What led to the issue?
+What can be learned?
+
+#### Resolution and Recovery Efforts
+
+#### Actions to Avoid Same Scenario
+
+It is also good to highlight systems that went well, which documents the effectiveness of the systems in place.
+
 
