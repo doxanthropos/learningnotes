@@ -1,0 +1,12 @@
+* Forword
+
+"Since large programs grow from small ones, it is crucial that we develop an arsenal of standard program structures of whose correctness we have become sure--we call them idioms--and learn to combine them into larger structures using organizational techniques of proven value."
+
+This is done through practice in this book, but other later books, like the Gang of Four, Designpatterns book, can be seen as a continuation of this goal.
+
+* Chapter 01
+
+#+BEGIN_SRC Scheme
+(list '(1 2 3))
+
+#+END_SRC
